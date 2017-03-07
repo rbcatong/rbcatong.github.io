@@ -1,0 +1,21 @@
+# Site settings
+title: NYC CODES
+header-img: img/home-bg.png
+email: rtong@buffalo.edu
+copyright_name: rtong123
+description: > # this means to ignore newlines until "baseurl:"
+  building my life one code at a time
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  rtong123
+learn_profile: rtong123
+email_username: rtong@buffalo.edu
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
