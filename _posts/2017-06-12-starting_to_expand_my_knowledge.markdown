@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Starting to Expand My Knowledge"
-date:   2017-06-12 15:59:10 +0000
+date:   2017-06-12 11:59:11 -0400
 ---
 
 
