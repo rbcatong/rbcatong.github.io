@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Getting Over The Speed Bump"
-date:   2017-09-27 00:14:29 +0000
+date:   2017-09-26 20:14:30 -0400
 ---
 
 
