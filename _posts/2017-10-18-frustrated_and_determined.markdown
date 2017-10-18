@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Frustrated & Determined"
-date:       2017-10-18 16:55:53 +0000
+date:       2017-10-18 12:55:53 -0400
 permalink:  frustrated_and_determined
 ---
 
