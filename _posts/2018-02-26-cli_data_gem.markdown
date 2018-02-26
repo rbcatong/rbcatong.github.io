@@ -1,0 +1,17 @@
+---
+layout: post
+title:      "CLI Data Gem"
+date:       2018-02-26 17:59:05 +0000
+permalink:  cli_data_gem
+---
+
+
+Eeeeek. This was my offical first project for Ruby and boy was I scared. It definitely took me a long time to finish this project. I started in mid January or maybe it was before that. But I kept putting it off because the fear in me didn't  want to take on the project. So what I did to push myself was to attend study groups  and try using slack. Early on in the program, I did not attend any study groups and when I finally attended my first study group, it made me think "Why didn't I do this before?" It really helped to know that other people were in the same boat as me. The boat that harbored feelings of what am I doing and how do I approach this? After finally watching the video code along for daily deal by Avi multiple times, I finally understood what I was set out to do. Note to self: Read directions and understand what I'm watching. 
+
+It took me a while to choose what I wanted my project to be on. I wanted it to be perfect even when I didn't understand what I was doing. So i looked back on my previous labs, narrowing down what I did and how to incorporate it into this project. So I created this gem to check the bestsellers of Sephora by category. And as I was scraping and got everything that needed to become from the scrape, it slowly stopped working. And the excitement of everything working stopped. I was able to scrape the name, but it was getting harder to scrape the item and description just because there seemed to be something wrong with scraping in Sephora. So I had to change my plan into something different, I decided on Ulta. 
+
+By changing the website, it definitely changed what I wanted to narrow it down to. I was able to pick the category I needed and to scrape these objects. Also whether or not I wanted a long list of items vs short list of items to make it more user friendly. The adrenaline of everything working helped me progess forward. As I started making the project, I referenced to the examples that were being shown and each project was different, but in a way it was able to do the same functions. There was a point where I worked really hard one night just scraping and putting together the categories and being able to show what was in each category. I think this was my first satisfying moment in this project because it was finally working. From the beginning, I had no idea what I was doing, then all of a sudden I was able to do something and make the code work! Seeing the command line interface work with what my inputs were, I felt like I had come a long way. 
+
+Another thing I was able to learn was Github. Since I never really played around with github, it really showed me how to be able to push my work into Github. Because if I didn't all my work would be lost due to my temporary environment that I was coding in. It helped me practice these skills and make sure I was pushing to the right repository. And everytime I would get stuck while coding, it was helpful to think what is the bigger picture of what I was trying to do. And what did I want to present for the user? I think that really helped to progress in this project. 
+
+The last minute tweaks are almost done. After about 30 days, I have finally completed my project. The fear that I had in myself has disappeared and I have something to show for it. My goal now is to take the project head on rather than to keep doing bits and pieces each day. Hopefully I can accomplish this for the next few projects! 
