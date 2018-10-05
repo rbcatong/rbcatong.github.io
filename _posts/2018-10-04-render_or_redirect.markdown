@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Render or Redirect "
-date:       2018-10-05 03:53:30 +0000
+date:       2018-10-04 23:53:31 -0400
 permalink:  render_or_redirect
 ---
 
