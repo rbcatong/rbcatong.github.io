@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Javascript: Project Mode"
-date:       2020-02-24 21:47:44 +0000
+date:       2020-02-24 16:47:45 -0500
 permalink:  javascript_project_mode
 ---
 
