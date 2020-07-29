@@ -7,6 +7,10 @@
 <html>
 	<head>
 		<title>Rebecca Tong -- Software Engineer</title>
+		<script src="index.js">
+			document.getElementById('email').onclick = clickMe;
+			
+		</script>
 		<script src="https://kit.fontawesome.com/3627524622.js" crossorigin="anonymous"></script>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -25,7 +29,7 @@
 								<header id="header">
 									<a href="index.html" class="logo"><strong> </strong> </a>
 									<ul class="icons">
-										<li><a href="#" class="far fa-envelope"><span class="label"></span></a></li>
+										<li><button id="email" onclick='clickMe()' class="far fa-envelope"><span class="label"></span></button></li>
 									</ul>
 								</header>
 
@@ -50,7 +54,7 @@
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>passions </h2>
+										<h2>Passions</h2>
 									</header>
 									<div class="features">
 										<article>
@@ -78,9 +82,11 @@
 										</article>
 									</div>
 								</section>
-
-							
 							</header>	
+
+							<header class="major">
+								<h2>Passions</h2>
+							</header>
 							<div class="posts">	
 								<article>	
 									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>	
