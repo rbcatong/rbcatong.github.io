@@ -5,5 +5,5 @@ function clickMe(){
 
 function readMore(){
     let post3 = document.getElementById('post3')
-    post3.style.display = "none";
+    post3.style.display = "block";
 }
