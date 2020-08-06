@@ -5,3 +5,7 @@
 #pictureOfme {
     border: 5px solid #555;
   }
+
+  p{ 
+    line-height: 100px; 
+  } 
