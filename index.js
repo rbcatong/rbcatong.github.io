@@ -4,5 +4,6 @@ function clickMe(){
 
 
 function readMore(){
-    console.log('hi')
+    let post3 = document.getElementById('post3')
+    post3.style.display = "none";
 }
