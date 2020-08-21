@@ -10,7 +10,6 @@ p{
    line-height: 100px; 
   }
   
-
   i.fab {
     display: inline-block;
     border-radius: 60px;
@@ -19,4 +18,31 @@ p{
     cursor: pointer;
   }
 
-  
+  nav ul {
+    /* list-style: none; */
+    padding: 10;
+    margin: 0;
+   text-align: center; /* step 6 */
+}
+nav li {
+  display: inline-block; 
+  /* width: 20%;  */
+  margin-right: -4px; /* step 5 */
+}
+nav a {
+  display: block; /* step 2 */
+}
+/* common text style */
+nav a {
+  height: 50%; vertically center
+  line-height: 50%; 
+  color: black;
+}
+nav a:hover {
+  background-color: white;
+}
+ 
+nav a.active {
+  background-color: white;
+  cursor: pointer;
+}
