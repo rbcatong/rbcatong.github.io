@@ -20,7 +20,7 @@ p{
 
   nav ul {
     /* list-style: none; */
-    padding: 10;
+    padding: 0;
     margin: 0;
    text-align: center; /* step 6 */
 }
@@ -37,6 +37,7 @@ nav a {
   height: 50%; vertically center
   line-height: 50%; 
   color: black;
+  padding: 0;
 }
 nav a:hover {
   background-color: white;
@@ -46,3 +47,8 @@ nav a.active {
   background-color: white;
   cursor: pointer;
 }
+
+#banner{
+  padding: 0;
+}
+
