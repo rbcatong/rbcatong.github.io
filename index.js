@@ -14,3 +14,9 @@ function tweetMe(){
 function openGit(){
     window.open("https://github.com/rbcatong")
 }
+
+
+function showProjects(){
+    document.getElementById("projects").style.display = "block";
+    //show projects hide everything else 
+}
