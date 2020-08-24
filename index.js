@@ -20,3 +20,7 @@ function showProjects(){
     document.getElementById("projects").style.display = "block";
     //show projects hide everything else 
 }
+
+function showResume(){
+    window.open("https://drive.google.com/file/d/1Q9A-NH4RAbueomny-T0rv_PYMZUaz2D6/view?usp=sharing")
+}
