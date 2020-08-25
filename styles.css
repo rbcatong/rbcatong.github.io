@@ -57,59 +57,94 @@ nav a.active {
   display: none;
 }
 
-body {
+
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
 }
 
-.topnav {
-  overflow: hidden;
-  
+body {
+  font-family: "Josefin Sans", sans-serif;
 }
 
-.topnav a {
-  float: left;
-  display: block;
-  color: #f56a6a
-  text-align: center;
-  padding: 14px 16px;
-  display: flex;
-  justify-content: space-between;
-  width: 25%;
-  text-decoration: none;
-  font-size: 17px;
+.navbar {
+  font-size: 18px;
+  background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
 }
 
-.topnav a:hover {
-  color: black
-}
-
-.topnav a.active {
-  color: #f56a6a
-}
-
-.topnav .icon {
+.main-nav {
+  list-style-type: none;
   display: none;
 }
 
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-  float: right;
-  display: block;
-  }
+.nav-links,
+.logo {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
 }
 
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.navbar-toggle {
   position: absolute;
-  right: 0;
-  top: 0;
-  }
-  .topnav.responsive a {
-  float: none;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+
+.active {
   display: block;
-  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: rgba(255, 255, 255, 1);
   }
 }

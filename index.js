@@ -25,12 +25,10 @@ function showResume(){
     window.open("https://drive.google.com/file/d/1Q9A-NH4RAbueomny-T0rv_PYMZUaz2D6/view?usp=sharing")
 }
 
-function topNav() {
-    console.log('hi')
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
+
+let mainNav = document.getElementById("js-menu");
+let navBarToggle = document.getElementById("js-navbar-toggle");
+
+navBarToggle.addEventListener("click", function() {
+  mainNav.classList.toggle("active");
+});
