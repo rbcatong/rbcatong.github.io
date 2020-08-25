@@ -58,3 +58,31 @@ nav a.active {
 }
 
 
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  min-height 8vh;
+  list-style:none;
+}
+
+.nav-links a{
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+
+}
+
+.burger div{
+ width:20px;
+ height:3px;
+ margin:2px;
+ background-color: red;
+}
