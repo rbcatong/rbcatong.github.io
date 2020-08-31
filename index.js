@@ -26,3 +26,8 @@ function showResume(){
 }
 
 
+function clickContact(){
+    // i want to show the icons and hide eeverything else on the page. 
+        document.getElementById("first_section").style.display = "none";
+        document.getElementsByClassName("icons");
+}
