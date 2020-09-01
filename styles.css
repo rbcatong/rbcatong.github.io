@@ -77,7 +77,8 @@ nav{
   letter-spacing: 3px;
   font-weight: bold;
   font-size: 14px;
-
+  font-family: "Roboto Slab", serif;
+  
 }
 
 .burger{
@@ -121,3 +122,5 @@ nav{
     width:60%;
   }
 }
+
+ 
