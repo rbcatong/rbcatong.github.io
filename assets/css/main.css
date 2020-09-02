@@ -14,7 +14,7 @@ u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, output, ruby,
+footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -24,7 +24,7 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline; }
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu,  section {
+footer, header, hgroup, menu, nav, section {
   display: block; }
 
 body {
@@ -111,7 +111,7 @@ a {
   -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  
+  border-bottom: dotted 1px;
   color: #f56a6a;
   text-decoration: none; }
   a:hover {
@@ -2093,7 +2093,7 @@ button,
     text-align: right; }
   @media screen and (max-width: 1680px) {
     #header {
-      padding-top: .2em; } }
+      padding-top: 5em; } }
   @media screen and (max-width: 736px) {
     #header {
       padding-top: 6.5em; }
