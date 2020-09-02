@@ -1,11 +1,3 @@
-#post3{
-    display: none
-}
-
-#pictureOfme {
-
-  }
-
 p{ 
    line-height: 100px; 
   }
@@ -18,36 +10,6 @@ p{
     cursor: pointer;
   }
 
-  nav ul {
-    list-style-type: none;
-    padding-top: 10px;
-    margin: 0;
-   text-align: center; /* step 6 */
-}
-nav li {
-  display: inline-block; 
-  width: 20%; 
-  margin-right: -4px; /* step 5 */
-  padding:10;
-}
-nav a {
-  display: block; /* step 2 */
-}
-/* common text style */
-nav a {
-  height: 50%; vertically center
-  line-height: 50%; 
-  color: black;
-  padding: 10;
-}
-nav a:hover {
-  background-color: white;
-}
- 
-nav a.active {
-  background-color: white;
-  cursor: pointer;
-}
 
 #banner{
   padding: 0;
@@ -68,10 +30,12 @@ body{
   padding: 0;
 }
 
-nav{
+.navbar{
   display: flex;
   justify-content: space-between;
   align-items:center;
+  background-color: #333;
+  color:white;
 }
 
 .brand-title{
@@ -95,9 +59,7 @@ display: flex;
   display: block;
 }
 
-navbar-links li:hover{
-  background-color: #555;
-}
+
 
 .toggle-button{
   position: absolute;
@@ -105,10 +67,26 @@ navbar-links li:hover{
   right: 1rem;
   display: none;
   flex-direction: column;
+  justify-content: space-between;
+  width:30px;
+  height: 21px;
+}
+
+.toggle-button .bar{
+  height: 3px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media(max-width: 600px){
+  .toggle-button{
+    display: flex;
+  }
+
+  .navbar-links{
+    display: none;
+  }
 }
 
 
 
- .header{
-   padding: 0;
- }
