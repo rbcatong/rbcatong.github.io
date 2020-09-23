@@ -32,3 +32,8 @@ function clickContact(){
         document.getElementsByClassName("icons").style.display = "block"
         document.getElementById("about-me").style.display = "none"
     }
+
+function showBlog(){
+    window.open("rbcatong.wordpress.com")
+
+}
