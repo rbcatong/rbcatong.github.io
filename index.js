@@ -34,5 +34,5 @@ function clickContact(){
     }
 
 function showBlog(){
-    window.open("https://rbcatong.wordpress.com/")
+    window.open("https://rbcatong.wordpress.com")
 }
