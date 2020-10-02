@@ -36,3 +36,11 @@ function clickContact(){
 function showBlog(){
     window.open("https://rbcatong.wordpress.com")
 }
+
+function openGitForMakeupReviews(){
+    window.open("https://github.com/rbcatong/Makeup-Reviews")
+}
+
+function openDemoForMakeupReviews(){
+    window.open("https://www.youtube.com/watch?v=EWYfRn6jn5w&feature=youtu.be")
+}
