@@ -44,3 +44,12 @@ function openGitForMakeupReviews(){
 function openDemoForMakeupReviews(){
     window.open("https://www.youtube.com/watch?v=EWYfRn6jn5w&feature=youtu.be")
 }
+
+function openGitForExerciseJournal(){
+    window.open("https://github.com/rbcatong/exercise.git")
+}
+
+function openDemoForExerciseJournal(){
+    window.open("https://www.youtube.com/watch?v=yfXbCnvBlkI")
+}
+
