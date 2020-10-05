@@ -63,11 +63,11 @@ function openDemoforTravelJournal(){
 }
 
 function openGitforProductTracker(){
-
+window.open("https://github.com/rbcatong/rails-js-project")
 }
 
 function openDemoforProductTracker(){
-
+window.open("https://www.youtube.com/watch?v=4hvaSfYo0eA&feature=youtu.be")
 }
 
 
