@@ -53,3 +53,22 @@ function openDemoForExerciseJournal(){
     window.open("https://www.youtube.com/watch?v=yfXbCnvBlkI")
 }
 
+
+function openGitforTravelJournal(){
+    
+}
+
+function openDemoforTravelJournal(){
+
+}
+
+function openGitforProductTracker(){
+
+}
+
+function openDemoforProductTracker(){
+    
+}
+
+
+
