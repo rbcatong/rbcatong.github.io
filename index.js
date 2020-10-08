@@ -22,7 +22,7 @@ function showProjects(){
 }
 
 function showResume(){
-    window.open("https://drive.google.com/file/d/10O53XVsw8pjcLVin0gBDLsIp0m_7nlI0/view?usp=sharing")
+    window.open("https://drive.google.com/file/d/1Yc4BxLysNalIfuwz6tP3i8WIeVD0E7Ww/view?usp=sharing")
 }
 
 
